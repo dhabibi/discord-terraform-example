@@ -1,0 +1,47 @@
+{
+  "name": "discord-terraform-example",
+  "version": "1.0.0",
+  "description": "Discord bot with Terraform infrastructure setup for Supabase and Railway deployment",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node --watch src/index.js",
+    "deploy-commands": "node src/deploy-commands.js",
+    "lint": "eslint src/**/*.js",
+    "format": "prettier --write \"src/**/*.js\""
+  },
+  "keywords": [
+    "discord",
+    "bot",
+    "discord.js",
+    "supabase",
+    "terraform",
+    "railway",
+    "infrastructure",
+    "automation"
+  ],
+  "author": "Daniel Habibi",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18.0.0",
+    "npm": ">=9.0.0"
+  },
+  "dependencies": {
+    "discord.js": "^14.14.1",
+    "@supabase/supabase-js": "^2.39.7",
+    "dotenv": "^16.4.1"
+  },
+  "devDependencies": {
+    "eslint": "^8.56.0",
+    "prettier": "^3.2.4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dhabibi/discord-terraform-example.git"
+  },
+  "bugs": {
+    "url": "https://github.com/dhabibi/discord-terraform-example/issues"
+  },
+  "homepage": "https://github.com/dhabibi/discord-terraform-example#readme"
+}
